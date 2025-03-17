@@ -5,7 +5,7 @@ import Link from 'next/link';
 export async function generateStaticParams() {
   // Create an array of paths for all blog posts
   const paths = allPosts.map((post) => ({
-    id: post.id.toString(),
+    bid: post.id.toString(),
   }));
 
   return paths;
