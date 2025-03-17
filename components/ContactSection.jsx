@@ -74,15 +74,13 @@ const ContactSection = () => {
     setIsSubmitting(true);
     
     try {
-      const result = await submitFormToSheet(
-        {
-          ...formData,
-          submittedAt: new Date().toISOString()
-        },
-        'contact'
-      );
+      const res = await fetch(scriptUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
       
-      if (result.success) {
+      if (res.success) {
         toast({
           title: "Message Sent!",
           description: "Thank you for your message. We'll get back to you shortly.",
