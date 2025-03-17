@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
     images: {
@@ -6,5 +5,5 @@ const nextConfig = {
     },
   };
   
-  module.exports = nextConfig;
+  export default nextConfig;
   
