@@ -1,8 +1,10 @@
-// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',  // This is important for static site generation
-  }
+    output: 'export',
+    images: {
+      unoptimized: true, // If using Next.js images in a static export
+    },
+  };
   
-  export default nextConfig;
+export default nextConfig;
   
