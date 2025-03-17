@@ -2,7 +2,7 @@ import React from 'react';
 import { Clock, User, ArrowLeft, Share2 } from 'lucide-react';
 import { allPosts } from '../../../../utils/blogData';
 import Link from 'next/link';
-
+export const dynamic = 'force-static'
 const BlogDetail = ({ params }) => {
   const { id } = params;
   const postId = parseInt(id || '1');
