@@ -2,7 +2,14 @@ import React from 'react';
 import { Clock, User, ArrowLeft, Share2 } from 'lucide-react';
 import { allPosts } from '../../../../utils/blogData';
 import Link from 'next/link';
-export const dynamic = 'force-static'
+export async function generateStaticParams() {
+  // Create an array of paths for all blog posts
+  const paths = allPosts.map((post) => ({
+    id: post.id.toString(),
+  }));
+
+  return paths;
+}
 const BlogDetail = ({ params }) => {
   const { id } = params;
   const postId = parseInt(id || '1');
