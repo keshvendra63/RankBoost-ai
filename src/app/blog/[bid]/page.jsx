@@ -3,17 +3,14 @@ import { Clock, User, ArrowLeft, Share2 } from 'lucide-react';
 import { allPosts } from '../../../../utils/blogData';
 import Link from 'next/link';
 export async function generateStaticParams() {
-  // Create an array of paths for all blog posts
-  const paths = allPosts.map((post) => ({
+  return allPosts.map((post) => ({
     bid: post.id.toString(),
   }));
-
-  return paths;
 }
+
 const BlogDetail = ({ params }) => {
-  const { id } = params;
-  const postId = parseInt(id || '1');
-  
+  const { bid } = params;
+  const postId = parseInt(bid || '1');
   // Find the post with the matching ID
   const post = allPosts.find(p => p.id === postId);
   
