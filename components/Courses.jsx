@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import { ArrowRight, Code, Paintbrush, TrendingUp, Clock, Users, CheckCircle2 } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "./ui/Dialog";
 import CourseForm from './CourseForm';
-import { toast } from 'sonner';
+import toast from 'react-hot-toast';
 
 // No direct equivalent of TypeScript interfaces in JavaScript, but we can define a constructor function or a class to represent the structure.
 

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
-import { useToast } from '../hooks/use-toast';
+import toast from 'react-hot-toast';
 import { validateEmail, validatePhone, submitFormToSheet } from '../utils/formHandlers';
 
 const ContactSection = () => {
-  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -86,12 +85,10 @@ const ContactSection = () => {
         body: formParams,
         mode: "no-cors", // Prevents CORS issues
       })
+      console.log(res)
       
-      if (res.success) {
-        toast({
-          title: "Message Sent!",
-          description: "Thank you for your message. We'll get back to you shortly.",
-        });
+      if (res.status===0) {
+        toast.success("Thank you for your message. We'll get back to you shortly.");
         
         // Reset form
         setFormData({
@@ -102,19 +99,11 @@ const ContactSection = () => {
           message: ''
         });
       } else {
-        toast({
-          title: "Error",
-          description: "Something went wrong. Please try again later.",
-          variant: "destructive"
-        });
+        toast.error("Something went wrong. Please try again later.");
       }
     } catch (error) {
       console.error('Form submission error:', error);
-      toast({
-        title: "Error",
-        description: "Something went wrong. Please try again later.",
-        variant: "destructive"
-      });
+      toast.error("Something went wrong. Please try again later.");
     } finally {
       setIsSubmitting(false);
     }
