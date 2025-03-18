@@ -2864,7 +2864,6 @@ cursor: pointer;
 }
 
 .form-textarea {
-  width: 100%; /* Full width */
   border-radius: 0.375rem; /* rounded-md */
   border: 1px solid #d1d5db; /* border-kudevs-gray-200 */
   padding: 0.5rem 1rem; /* px-4 py-2 */
