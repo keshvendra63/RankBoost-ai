@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rankboostuk.in/sitemap.xml
