@@ -4,6 +4,7 @@ import { Input } from './ui/Input';
 import { Label } from './ui/Label';
 import { Textarea } from './ui/Textarea';
 import { submitFormToSheet, validateEmail, validatePhone } from '../utils/formHandlers';
+import toast from 'react-hot-toast';
 
 const CourseForm = ({ courseId, courseName, onSuccess }) => {
   const [formData, setFormData] = useState({
@@ -70,21 +71,24 @@ const CourseForm = ({ courseId, courseName, onSuccess }) => {
     }
     
     setIsSubmitting(true);
-    
+    const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdmtKW5nUdqC8siaJj5VXXnXdcfRBix9Kk_RtjebDysM5xHLA/formResponse";
+
     try {
-      const result = await submitFormToSheet(
-        {
-          ...formData,
-          courseId,
-          courseName,
-          submittedAt: new Date().toISOString()
-        },
-        'course'
-      );
+      const formParams = new URLSearchParams();
+      formParams.append("entry.136723129", formData.name); // Replace with actual entry ID
+      formParams.append("entry.1415215792", formData.email);
+      formParams.append("entry.645307969", formData.phone);
+      formParams.append("entry.653749479", formData.education);
+      formParams.append("entry.1307120735", formData.experience);
+      formParams.append("entry.675919619", formData.message);
+        const res = await fetch(googleFormUrl, {
+          method: "POST",
+          body: formParams,
+          mode: "no-cors", // Prevents CORS issues
+        })
       
-      if (result.success) {
-        onSuccess();
-        // Reset form
+      if (res.status===0) {
+toast.success("Form Submitted")        // Reset form
         setFormData({
           name: '',
           email: '',
