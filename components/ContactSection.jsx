@@ -72,13 +72,20 @@ const ContactSection = () => {
     }
     
     setIsSubmitting(true);
+    const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdf1gD3MN9USuX3CzDEyxZY1hv-XMED5Xehn7BSF4axN5zq8A/formResponse";
     
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbwkFGspupUlZWh3qhwNqQzB61xbZHBhsScbbgyop-hBlzqZDaWa9odYxX6hS4LpEidbxw/exec", {
+      const formParams = new URLSearchParams();
+    formParams.append("entry.1568434334", formData.name); // Replace with actual entry ID
+    formParams.append("entry.77754124", formData.email);
+    formParams.append("entry.1788518703", formData.phone);
+    formParams.append("entry.2052649119", formData.subject);
+    formParams.append("entry.255857358", formData.message);
+      const res = await fetch(googleFormUrl, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+        body: formParams,
+        mode: "no-cors", // Prevents CORS issues
+      })
       
       if (res.success) {
         toast({
