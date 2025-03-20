@@ -18,7 +18,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "Web Design Client",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150",
-    text: "The team at KUdevs completely transformed our online presence. Their attention to detail and creative approach exceeded our expectations. They were responsive, professional, and delivered exactly what we needed.",
+    text: "The team at RankBoostUK completely transformed our online presence. Their attention to detail and creative approach exceeded our expectations. They were responsive, professional, and delivered exactly what we needed.",
     rating: 5
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     name: "Michael Chen",
     role: "Course Student",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150",
-    text: "Taking the React Development course at KUdevs was the best career decision I've made. The curriculum was comprehensive and the instructors were incredibly knowledgeable. I landed a developer job within two months of completing the course!",
+    text: "Taking the React Development course at RankBoostUK was the best career decision I've made. The curriculum was comprehensive and the instructors were incredibly knowledgeable. I landed a developer job within two months of completing the course!",
     rating: 5
   },
   {
@@ -34,7 +34,7 @@ const testimonials = [
     name: "Emily Rodriguez",
     role: "SEO Services Client",
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150",
-    text: "We saw a 200% increase in organic traffic after implementing KUdevs' SEO strategy. Their team was transparent about the process and kept us updated with detailed monthly reports. Highly recommend their services!",
+    text: "We saw a 200% increase in organic traffic after implementing RankBoostUK' SEO strategy. Their team was transparent about the process and kept us updated with detailed monthly reports. Highly recommend their services!",
     rating: 4
   },
   {
@@ -42,7 +42,7 @@ const testimonials = [
     name: "David Thompson",
     role: "Graphic Design Client",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150",
-    text: "The branding package we received from KUdevs perfectly captured our company's vision. Their designers were attentive to our needs and delivered a versatile brand identity that works across all of our marketing materials.",
+    text: "The branding package we received from RankBoostUK perfectly captured our company's vision. Their designers were attentive to our needs and delivered a versatile brand identity that works across all of our marketing materials.",
     rating: 5
   }
 ];

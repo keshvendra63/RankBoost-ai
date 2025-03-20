@@ -40,7 +40,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="nav-links">
-          {["services", "courses", "portfolio", "team", "testimonials", "contact"].map((item) => (
+          {["services", "portfolio", "team", "testimonials", "contact"].map((item) => (
             <button key={item} onClick={() => scrollToSection(item)} className="nav-item">
               {item}
             </button>
@@ -63,7 +63,7 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className="mobile-menu">
           <div className="mobile-menu-container">
-            {["services", "courses", "portfolio", "team", "testimonials", "contact"].map((item) => (
+            {["services", "portfolio", "team", "testimonials", "contact"].map((item) => (
               <button key={item} onClick={() => scrollToSection(item)} className="mobile-menu-item">
                 {item}
               </button>

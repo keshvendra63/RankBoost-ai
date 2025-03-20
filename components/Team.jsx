@@ -59,7 +59,7 @@ const Team = () => {
         linkedin: "https://linkedin.com/in/username",
         github: "https://github.com/username",
         twitter: "https://twitter.com/username",
-        email: "keshvendra@kudevs.com"
+        email: "rankboostuk@gmail.com"
       }
     },
     {
@@ -74,7 +74,7 @@ const Team = () => {
       social: {
         linkedin: "https://linkedin.com/in/username",
         twitter: "https://twitter.com/username",
-        email: "aisha@kudevs.com"
+        email: "rankboostuk@gmail.com"
       }
     },
     {
@@ -89,7 +89,7 @@ const Team = () => {
       social: {
         linkedin: "https://linkedin.com/in/username",
         twitter: "https://twitter.com/username",
-        email: "raj@kudevs.com"
+        email: "rankboostuk@gmail.com"
       }
     },
     {
@@ -104,7 +104,7 @@ const Team = () => {
       social: {
         linkedin: "https://linkedin.com/in/username",
         github: "https://github.com/username",
-        email: "priya@kudevs.com"
+        email: "rankboostuk@gmail.com"
       }
     },
     {
@@ -119,7 +119,7 @@ const Team = () => {
       social: {
         linkedin: "https://linkedin.com/in/username",
         twitter: "https://twitter.com/username",
-        email: "arjun@kudevs.com"
+        email: "rankboostuk@gmail.com"
       }
     },
     {
@@ -134,7 +134,7 @@ const Team = () => {
       social: {
         linkedin: "https://linkedin.com/in/username",
         twitter: "https://twitter.com/username",
-        email: "neha@kudevs.com"
+        email: "rankboostuk@gmail.com"
       }
     }
   ];
@@ -145,7 +145,7 @@ const Team = () => {
         <div className="section-title">
           <p className={`section-subtitle ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>Our Team</p>
           <h2 className={`main-title ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '100ms' }}>
-            Meet the <span className="gradient-text">Talent</span> Behind KUdevs
+            Meet the <span className="gradient-text">Talent</span> Behind RankBoostUK
           </h2>
           <p className={`section-description ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '200ms' }}>
             Our diverse team of passionate professionals combines technical expertise with creative excellence to deliver exceptional results.

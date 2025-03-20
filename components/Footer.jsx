@@ -68,16 +68,16 @@ const Footer = () => {
             <h3 className="footer-heading">Contact Info</h3>
             <ul className="footer-list">
               <li className="footer-contact-info">
-                123 Tech Park, Sector 62, Noida, UP, India
+                Sector 62, Noida, UP, India
               </li>
               <li>
-                <a href="mailto:contact@kudevs.com" className="footer-link">
-                  contact@kudevs.com
+                <a href="mailto:rankboostuk@gmail.com" className="footer-link">
+                  rankboostuk@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+919876543210" className="footer-link">
-                  +91 9876543210
+                <a href="tel:+916306492433" className="footer-link">
+                  +91 6306492433
                 </a>
               </li>
             </ul>
@@ -86,7 +86,7 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <p className="footer-rights">
-            &copy; {new Date().getFullYear()} KUdevs. All rights reserved.
+            &copy; {new Date().getFullYear()} RankBoost UK. All rights reserved.
           </p>
           
           <button

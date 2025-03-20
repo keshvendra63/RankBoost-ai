@@ -44,13 +44,13 @@ const Page = () => {
           <Services />
         </section>
         
-        <section id="courses" className="section-container bg-kudevs-gray-50 reveal">
+        {/* <section id="courses" className="section-container bg-kudevs-gray-50 reveal">
           <div className="section-title">
             <h4 className="section-subtitle">LEARN WITH US</h4>
             <h2 className="gradient-text">Our Courses</h2>
           </div>
           <Courses />
-        </section>
+        </section> */}
         
         <section id="portfolio" className="section-container reveal">
           <div className="section-title">
