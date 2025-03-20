@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { Toaster } from "react-hot-toast";
-const montserratSans = Montserrat({
+const montserrat = Montserrat({
   variable: "--font-Montserrat",
   subsets: ["latin"],
 });
@@ -174,7 +174,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={montserratSans.variable}>
+      <body className={montserrat.variable}>
       <Toaster
   position="top-right"
   reverseOrder={false}

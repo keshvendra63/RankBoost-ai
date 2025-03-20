@@ -93,6 +93,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: -0.02em;
+  font-family:"Montserrat", sans-serif;
+
 }
 
 h1 {
@@ -113,6 +115,8 @@ h4 {
 
 p {
   line-height: 1.6;
+  font-family:"Montserrat", sans-serif;
+
 }
 
 .glass-card {
@@ -151,6 +155,8 @@ p {
 }
 
 .btn-primary {
+  font-family:"Montserrat", sans-serif;
+
   background: linear-gradient(to right, var(--primary), var(--ring));
   color: white;
   font-weight: 500;
