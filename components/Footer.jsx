@@ -23,19 +23,19 @@ const Footer = () => {
             </p>
             <div className="social-icons">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <Facebook className="social-icon" />
+                <Facebook className="social-icon" style={{color:"white"}}/>
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <Twitter className="social-icon" />
+                <Twitter className="social-icon" style={{color:"white"}}/>
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <Instagram className="social-icon" />
+                <Instagram className="social-icon" style={{color:"white"}}/>
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <Linkedin className="social-icon" />
+                <Linkedin className="social-icon" style={{color:"white"}}/>
               </a>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <Github className="social-icon" />
+                <Github className="social-icon" style={{color:"white"}}/>
               </a>
             </div>
           </div>
