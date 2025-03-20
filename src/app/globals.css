@@ -2107,12 +2107,12 @@ p {
 }
 
 .social-icon {
-  color: #4B5563; /* Example gray color */
+  color: white; /* Example gray color */
   transition: color 0.3s ease; /* Transition for hover effect */
 }
 
 .social-icon:hover {
-  color: #3B82F6; /* Example hover color */
+  color: rgb(231, 231, 231); /* Example hover color */
 }
 
 
