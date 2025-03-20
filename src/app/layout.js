@@ -132,7 +132,7 @@ export const metadata = {
     url: "https://rankboostuk.in/",
     images: [
       {
-        url: "https://res.cloudinary.com/dqh6bd766/image/upload/c_limit,h_1000,f_auto,q_auto/v1732017754/qcykdxftz90kqc8mwfso.jpg",
+        url: "https://rankboostuk.in/android-chrome-512x512.png",
       },
     ],
   },
