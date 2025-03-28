@@ -49,11 +49,11 @@ const Team = () => {
     {
       id: "member1",
       color:"blue",
-      name: "Keshvendra Upmanyu",
-      role: "Founder & Lead Developer",
+      name: "Keshvendra",
+      role: "Co-Founder & Lead Developer",
       category: "dev",
       bio: "B.Tech holder in Computer Science with expertise in MERN stack development. Passionate about creating scalable web applications and mentoring aspiring developers.",
-      image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+      image: "https://cdni.iconscout.com/illustration/premium/thumb/male-user-image-illustration-download-in-svg-png-gif-file-formats--person-picture-profile-business-pack-illustrations-6515860.png",
       skills: ["React.js", "Next.js", "Node.js", "MongoDB", "JavaScript", "Python"],
       social: {
         linkedin: "https://linkedin.com/in/username",
@@ -65,12 +65,12 @@ const Team = () => {
     {
       id: "member2",
       color:"purple",
-      name: "Aisha Patel",
-      role: "Creative Director",
+      name: "Ujjawal Singh",
+      role: "Co-Founder & Lead Designer",
       category: "design",
       bio: "Award-winning graphic designer with 7+ years of experience in brand identity, UI/UX design, and visual storytelling. Passionate about creating memorable brand experiences.",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-      skills: ["Brand Identity", "UI/UX Design", "Adobe Creative Suite", "Figma", "Illustration", "Typography"],
+      image: "https://cdni.iconscout.com/illustration/premium/thumb/male-user-image-illustration-download-in-svg-png-gif-file-formats--person-picture-profile-business-pack-illustrations-6515860.png",
+      skills: ["Brand Identity", "UI/UX Design", "Adobe Creative Suite", "Figma", "Illustration", "Typography","Logo Creation"],
       social: {
         linkedin: "https://linkedin.com/in/username",
         twitter: "https://twitter.com/username",
@@ -80,11 +80,11 @@ const Team = () => {
     {
       id: "member3",
       color:"teal",
-      name: "Raj Sharma",
+      name: "Lakshmi",
       role: "Digital Marketing Strategist",
       category: "marketing",
       bio: "Digital marketing specialist with expertise in SEO, social media marketing, and content strategy. Passionate about data-driven marketing and growth hacking.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+      image: "https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-female-user-profile-vector-illustration-isolated-background-women-profile-sign-business-concept_157943-38866.jpg",
       skills: ["SEO", "Social Media Marketing", "Content Strategy", "Google Analytics", "PPC", "Email Marketing"],
       social: {
         linkedin: "https://linkedin.com/in/username",
@@ -92,51 +92,51 @@ const Team = () => {
         email: "rankboostuk@gmail.com"
       }
     },
-    {
-      id: "member4",
-      color:"blue",
-      name: "Priya Gupta",
-      role: "Frontend Developer",
-      category: "dev",
-      bio: "Frontend specialist with a keen eye for detail and passion for creating smooth, interactive user experiences. Loves working with modern JavaScript frameworks.",
-      image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-      skills: ["React.js", "Tailwind CSS", "JavaScript", "HTML/CSS", "TypeScript", "Redux"],
-      social: {
-        linkedin: "https://linkedin.com/in/username",
-        github: "https://github.com/username",
-        email: "rankboostuk@gmail.com"
-      }
-    },
-    {
-      id: "member5",
-      color:"purple",
-      name: "Arjun Mehta",
-      role: "UI/UX Designer",
-      category: "design",
-      bio: "User experience enthusiast who combines strong design principles with user psychology to create intuitive digital products that users love.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-      skills: ["UI Design", "UX Research", "Prototyping", "Wireframing", "Figma", "Adobe XD"],
-      social: {
-        linkedin: "https://linkedin.com/in/username",
-        twitter: "https://twitter.com/username",
-        email: "rankboostuk@gmail.com"
-      }
-    },
-    {
-      id: "member6",
-      color:"teal",
-      name: "Neha Singh",
-      role: "Content & SEO Specialist",
-      category: "marketing",
-      bio: "Content creator with a talent for SEO-optimized writing and storytelling. Turns complex ideas into engaging content that ranks well and converts.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
-      skills: ["Content Strategy", "SEO", "Copywriting", "Blog Management", "Keyword Research", "Analytics"],
-      social: {
-        linkedin: "https://linkedin.com/in/username",
-        twitter: "https://twitter.com/username",
-        email: "rankboostuk@gmail.com"
-      }
-    }
+    // {
+    //   id: "member4",
+    //   color:"blue",
+    //   name: "Priya Gupta",
+    //   role: "Frontend Developer",
+    //   category: "dev",
+    //   bio: "Frontend specialist with a keen eye for detail and passion for creating smooth, interactive user experiences. Loves working with modern JavaScript frameworks.",
+    //   image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    //   skills: ["React.js", "Tailwind CSS", "JavaScript", "HTML/CSS", "TypeScript", "Redux"],
+    //   social: {
+    //     linkedin: "https://linkedin.com/in/username",
+    //     github: "https://github.com/username",
+    //     email: "rankboostuk@gmail.com"
+    //   }
+    // },
+    // {
+    //   id: "member5",
+    //   color:"purple",
+    //   name: "Arjun Mehta",
+    //   role: "UI/UX Designer",
+    //   category: "design",
+    //   bio: "User experience enthusiast who combines strong design principles with user psychology to create intuitive digital products that users love.",
+    //   image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    //   skills: ["UI Design", "UX Research", "Prototyping", "Wireframing", "Figma", "Adobe XD"],
+    //   social: {
+    //     linkedin: "https://linkedin.com/in/username",
+    //     twitter: "https://twitter.com/username",
+    //     email: "rankboostuk@gmail.com"
+    //   }
+    // },
+    // {
+    //   id: "member6",
+    //   color:"teal",
+    //   name: "Neha Singh",
+    //   role: "Content & SEO Specialist",
+    //   category: "marketing",
+    //   bio: "Content creator with a talent for SEO-optimized writing and storytelling. Turns complex ideas into engaging content that ranks well and converts.",
+    //   image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+    //   skills: ["Content Strategy", "SEO", "Copywriting", "Blog Management", "Keyword Research", "Analytics"],
+    //   social: {
+    //     linkedin: "https://linkedin.com/in/username",
+    //     twitter: "https://twitter.com/username",
+    //     email: "rankboostuk@gmail.com"
+    //   }
+    // }
   ];
 
   return (

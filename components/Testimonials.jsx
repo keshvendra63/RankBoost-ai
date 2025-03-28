@@ -15,33 +15,33 @@ import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Aman Sharma",
     role: "Web Design Client",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150",
+    image: "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
     text: "The team at RankBoostUK completely transformed our online presence. Their attention to detail and creative approach exceeded our expectations. They were responsive, professional, and delivered exactly what we needed.",
     rating: 5
   },
   {
     id: 2,
-    name: "Michael Chen",
+    name: "Manisha Garg",
     role: "Course Student",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150",
+    image: "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
     text: "Taking the React Development course at RankBoostUK was the best career decision I've made. The curriculum was comprehensive and the instructors were incredibly knowledgeable. I landed a developer job within two months of completing the course!",
     rating: 5
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
+    name: "Sindhu",
     role: "SEO Services Client",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150",
+    image: "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
     text: "We saw a 200% increase in organic traffic after implementing RankBoostUK' SEO strategy. Their team was transparent about the process and kept us updated with detailed monthly reports. Highly recommend their services!",
     rating: 4
   },
   {
     id: 4,
-    name: "David Thompson",
+    name: "Surbhi Singh",
     role: "Graphic Design Client",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150",
+    image: "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
     text: "The branding package we received from RankBoostUK perfectly captured our company's vision. Their designers were attentive to our needs and delivered a versatile brand identity that works across all of our marketing materials.",
     rating: 5
   }
